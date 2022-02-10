@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Short+Stack&display=swap');
 
 h1 {
-    color:antiquewhite;
+    color:white;
     font-family: 'Short Stack', cursive;
 }
 
@@ -11,5 +11,26 @@ h2 {
 }
 
 *{
-    background-color:slategray
+    background-color:black;
+    
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+}
+
+.box {
+    height: 700px;
+    width: 1000px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box::after{
+    content: "TESTE DE VALOR 😀 ";
+    color: white;
+    font-size: 48px;
 }
