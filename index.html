@@ -3,52 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Uma pagina focada em estudo de html, css e js">
         <title>Estudo HTML e CSS</title>
         <link rel="icon" href="../estudo-html-css/files/favicon.jpg"/>
-
         <link rel="stylesheet" href="style.css">
+    </head>
 
     <body>
-
-        <header>
-            <nav>
-
-                <a class="logo" href="index.html">COMFY</a>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                <ul class="nav-list"> 
-                    <li><a href="html-estudo.html">HTML</a></li>
-                    <li><a href="css-estudo.html">CSS</a></li>
-                    <li><a href="js-estudo.html">Java Script</a> </li>
-                </ul>
-
+        <header class="header-main">         
+            <a class="header-title" href="../estudo-html-css/index.html">COMFY</a>
+            <nav class="header-menu">
+                <a class="header-menu-item" href="../estudo-html-css/html-pages/html-estudo.html">HTML</a>
+                <a class="header-menu-item" href="../estudo-html-css/css-pages/css-estudo.html">CSS</a>
+                <a class="header-menu-item" href="../estudo-html-css/js-pages/js-estudo.html">Java Script</a>                
             </nav>
+        </header>  
+        
+        <main class="content">
+            <section class="main-content">                
+                <div class="main-write-content">
+                    <h1 class="main-write-title">Minha Página para Estudos</h1>
+                    <h2 class="main-write-subtitle">Desenvolvendo essa pagina para aprender o básico de html, css e js na prática onde junto a parte teorica e implemento aqui. Tornando o aprendizado muito mais divertido!</h2>
+                    <button class="button-start">Começar</button>
+                </div>
+                <img class="main-gif" src="../estudo-html-css/files/eu.gif" alt="gif com personagem me representando">                
+            </section>
 
-
-        </header>
-    <main></main>
-
-            <h1>Sobre está pagina</h1>            
-            Irei utilizar está pagina para atuais estudos sobre HTML, CSS e Javascript atualizando e tornando mais bonita é pratica.
+            <section class="mid-content">
+                <h3 class="mid-title">Informações adicionais</h3>
+                <p class="content-mid-text">1. <strong>METAS OPCIONAIS</strong> Lorem ipsum dolor sit amet, </p>
+                <p class="content-mid-text">2. Metas Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <p class="content-mid-text">3. Metas Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+            </section>
+        </main>   
             
-            <h1>Informações para contato</h1>   
-                <ul>
-                    <li>
-                        <a href="mailto:garbielgecinco@gmail.com">gabrielgecinco@gmail.com</a>
-                    </li>     
-                    <li>
-                        <a href="tel:88811122339">(12) 982337157</a>
-                    </li>  
-                </ul>    
-             
-            
-            
-
-           
+          <footer class="footer-main-page">              
+           <h3 class="footer-title">LINKS PARA CONTATO</h3>                 
+                <a href="https://www.linkedin.com/in/gabrieloliveir/">
+                    <img class="footer-item" src="../estudo-html-css/files/in-icon.png">
+                </a>
+                <a href="https://github.com/gabrielg5s">
+                    <img class="footer-item" src="../estudo-html-css/files/git-icon.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5512982337157">
+                    <img class="footer-item" src="../estudo-html-css/files/wpp-icon.png">
+                </a>
+                <a href="https://twitter.com/gecinco">
+                    <img class="footer-item" src="../estudo-html-css/files/tt-icon.png">
+                </a>
+                <a href="mailto:gabrielgecinco@gmail.com">
+                    <img class="footer-item" src="../estudo-html-css/files/email-icon.png">
+                </a>                               
+         </footer>            
 
     </body>
-    </head>
+    
 </html>
