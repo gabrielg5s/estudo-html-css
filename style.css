@@ -42,37 +42,49 @@ body{
 
 .content{
     margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;    
 }
 
 .main-content{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;    
     justify-content: space-around;
+    margin-top: 64px;
+    margin-bottom: 220px;
 }
 
 .main-write-content{
     display: flex;
     flex-direction: column;    
-    gap: 64px;
+    gap: 32px;
     margin-left: 12px;
+    
 }
 
-.main-write-title{
+.main-write-title{    
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;      
-    margin-left: 48px;
+    margin: 70px 48px;
+    
     color: #FFF2E7;
 }
 
 .main-write-subtitle{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    margin-left: 48px;
-    margin-right: 48px;
+    font-size: 20px;
+    margin: 0px 48px;
+    color: #FFF2E7;
+}
+
+.main-write-text{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 48px;
+    margin-bottom: 108px;
     color: #FFF2E7;
 }
 
@@ -81,14 +93,14 @@ body{
     width: 180px;
     height: 60px;
     border: none;
-    margin-left: 48px;
+    margin-left: 42px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #2F2325;
-
+    
 }
 
 .button-start:hover{
@@ -109,15 +121,13 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    margin-top: 48px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 48px 140px;       
     
 }
 
 .mid-title{
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 68px;
+    border-top: 0.8px solid #FFF2E7;
+    padding-top: 64px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
@@ -126,15 +136,14 @@ body{
 }
 
 .content-mid-text{
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
+    font-family: 'Sarala', sans-serif;    
+    font-size: 16px;
     align-items: center;
     color: #ECD6C4;
 }
 
 .footer-main-page{
-    padding: 32px;
+    padding: 48px;
     border-top: 0.4px solid #FFF2E7;
 }
 
@@ -143,20 +152,20 @@ body{
     font-weight: 400;
     font-size: 24px;
     color: #FFF2EF;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;       
 }
 
 .footer-item{     
-    align-items: center;
-    gap: 32px;    
-    padding: 24px; 
-    /*box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);*/
+    align-items: center;   
+    margin: 12px 48px;
+    display: inline;
+    border-radius: 64px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    
     }
 
 .footer-cont{  
